@@ -1,0 +1,25 @@
+@import './variables';
+
+
+#divider {
+    position: relative;
+    padding: 20px 0;
+    background-color: $primary2;
+    .content {
+        background-color: $primary;
+        position: relative;
+    }
+    .divider {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+        margin-bottom: 0;
+        list-style: none;
+        .reel-main {
+            img {
+                height: 50px;
+            }
+        }
+    }
+}

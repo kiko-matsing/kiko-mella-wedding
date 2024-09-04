@@ -1,0 +1,90 @@
+@import './variables';
+
+
+#venue {
+    
+    .venue-main {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: center;
+        padding-left: 0;
+        position: relative;
+        margin-bottom: 0;
+        
+        
+        .venue {
+            width: 50%;
+            background-color: $bg-primary;
+            position: relative;
+            overflow: hidden;
+
+            .church {
+                padding-top: 50px;
+            }
+            .reels {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0;
+                position: absolute;
+                .reel-main {
+                    .reel-img {
+                        height: 200px;
+                    }
+                }
+    
+                &.reel2 {
+                    right: 0;
+                    bottom: 0;
+                    transform: rotate(180deg);
+                }
+                &.reel1 {
+                    left: 0;
+                }
+                
+            }
+            .main-button {
+                position: absolute;
+                bottom: 100px;
+                width: 100%;
+                .photo-button {
+                    color: $primary;
+                    background-color: $tertiary;
+                    border-radius: 50px;
+                    border-style: none;
+                    padding: 10px 120px;
+                    font-size: 25px;
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+            }
+
+        }
+        .photos {
+            width: 50%;
+            position: relative;
+            .photo-image {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .main-button {
+                position: absolute;
+                bottom: 100px;
+                width: 100%;
+                .photo-button {
+                    color: $primary;
+                    background-color: $tertiary;
+                    border-radius: 50px;
+                    border-style: none;
+                    padding: 10px 120px;
+                    font-size: 25px;
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#carousel-divider {
+    width: 100%;
+    
+    &.carousel-divider-1 {
+        padding-top: 0 !important;
+    }
+    .carousel-main-divider {
+        padding: 0 calc(100vh - 95vh) ;
+
+        img {
+            height: calc(100vh - 95vh);
+            width: calc(100vh - 95vh);
+            border-radius: 10px;
+            @media only screen and (min-width: 768px) {
+                width: calc(100vw - 90vw);
+                height: calc(100vh - 85vh);
+                
+            }
+        }
+
+        .main-carousel-roll {
+            padding-left: 0;
+            position: relative;
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            margin-bottom: 0;
+
+        }
+    }   
+    
+}

@@ -1,0 +1,65 @@
+@import './variables';
+
+
+#dress-code {
+    font-family: $Baskervville;
+    font-size: 25px;
+    padding: 40px;
+    background-color: $bg-primary;
+    color: black;
+    position: relative;
+    p {
+        margin-bottom: 0;
+    }
+    .title {
+        font-size: 60px !important;
+        margin-bottom: 10px;
+        .the {
+            font-family: $sail !important;
+            font-size: 40px !important;
+        }
+    }
+
+    .main-text {
+        margin: 20px 0;
+
+        .lined-text {
+            text-decoration: underline;
+        }
+    }
+    .colors {
+        .color-main {
+            display: flex;
+            list-style: none;
+            position: relative;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 0;
+            .color {
+                height: 60px;
+                width: 60px;
+                border-radius: 50px;
+
+                &.color1 {
+                    background-color: $primary;
+                }
+                &.color2 {
+                    background-color: #b5958c;
+                }
+                &.color3 {
+                    background-color: $secondary;
+                }
+                &.color4 {
+                    background-color: $tertiary;
+                }
+                &.color5 {
+                    background-color: $fleet-gray;
+                }
+            };
+        }
+    }
+
+    .svg {
+        position: absolute;
+    }
+}

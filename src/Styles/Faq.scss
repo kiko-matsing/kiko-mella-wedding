@@ -1,0 +1,59 @@
+
+@import './variables';
+
+
+#faq {
+    background-color: $bg-primary;
+    color: black;
+    padding: 60px 40px;
+
+    .faq-button {
+        color: $primary;
+        background-color: $tertiary;
+        border-radius: 50px;
+        border-style: none;
+        padding: 10px 120px;
+        font-size: 25px;
+        &:hover {
+            opacity: .7;
+        }
+    }
+
+    .main-title {
+        font-family: $sail;
+        font-size: 50px;
+        .title-2 {
+            font-family: $Baskervville !important;
+
+        }
+        text-align: left;
+    }
+    .faqs {
+        display: flex;
+        list-style: none;
+        width: 100%;
+        margin-bottom: 0;
+        padding-left: 0;
+        text-align: left;
+        font-size: 20px;
+        .faq {
+            padding: 30px 50px;
+            .faq-answer {
+                margin-bottom: 100px;
+            }
+
+        }
+        .question-title {
+            text-decoration: underline;
+            margin: 20px 0;
+        }
+
+        .faq1 {
+            width: 50%;
+        }
+        .faq2 {
+            width: 50%;
+        }
+    }
+
+}

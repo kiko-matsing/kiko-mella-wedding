@@ -1,0 +1,116 @@
+
+@import './variables';
+
+.navbar-section {
+    display: flex;
+
+    @media only screen and (min-width: 768px) {
+        justify-content: center;
+    }
+    @media only screen and (max-width: 768px) {
+        justify-content: right;
+    }
+    
+    align-items: center;
+    height: 60px;
+    background-color: $primary2;
+
+    .navbar-items {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        font-family: $Baskervville;
+        padding-left: 0 !important;
+        margin-bottom: 0;
+        > li {
+            list-style-type: none;
+            .navbar-links {
+                text-decoration: none;
+                font-size: 18px;
+                letter-spacing: .8px;
+                font-weight: 550;
+                color: $primary;
+                font-family: $Baskervville;
+            }
+            > a:hover {
+                opacity: 1;
+            }
+
+
+        }
+    }
+
+
+
+    /* Hamburger Icon */
+    .mobile-nav {
+        display: none;
+    }
+    .hamb-icon {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        color: $primary;
+        opacity: 0.8;
+    }
+    /* Mobile Navbar */
+    .mobile-navbar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        background-color: white;
+        z-index: 20;
+        justify-content: center;
+        align-items: center;
+        transition: left .5s ease-in-out;
+    }
+    .mobile-navbar-close {
+        position: absolute;
+        top: 28px;
+        right: 28px;
+    }
+    .mobile-navbar-close .hamb-icon:hover {
+        opacity: 1;
+    }
+    .open-nav {
+        left: 0;
+    }
+    .mobile-navbar-links {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+        gap: 24px;
+        text-align: center;
+    }
+    .mobile-navbar-links li a {
+        text-decoration: none;
+        color: black;
+        opacity: .6;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        letter-spacing: .8px;
+        transition: color .3s ease-in-out;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 900px) {
+        padding:  0 20px;
+        .navbar-btn, .navbar-items {
+            display: none;
+        }
+        .mobile-nav {
+            display: block;
+        }
+    }
+
+}

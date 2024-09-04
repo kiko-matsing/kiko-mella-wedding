@@ -1,0 +1,90 @@
+@import './variables';
+
+#main-rsvp{
+    background-image: url(../Assets/dress.webp);
+    background-repeat: no-repeat;
+    background-size: cover;         
+    padding: 200px 15%;
+    .rsvp-main-contents {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        padding-left: 0;
+        .rsvp-left{
+            width: 50%;
+        }
+    }
+    .rsvp-contents {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+
+        .rtc {
+            color: $primary;
+            font-size: 38px !important;
+            font-family: $text-font-primary !important;
+            margin-bottom: 100px;
+        }
+
+        .pls {
+            color: red;
+            font-size: 50px !important;
+            font-family: $Baskervville !important;
+        }
+
+        .rsvp {
+            font-size: 50px !important;
+            font-family: $Baskervville !important;
+
+        }
+        .content {
+            h6 {
+                font-family: $raleway;
+                font-weight: 300;
+                font-size: 15px;
+
+            }
+            hr {
+                height: 8px;
+                width: 5%;
+                margin: 10px auto 20px;
+                background-color: $primary;
+            }
+            .timer {
+                font-weight: 300;
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+
+            .title {
+                margin-bottom: 50px;
+
+            }
+
+            .place {
+
+                margin-bottom: 70px;
+            }
+
+            .time { 
+                margin-bottom: 50px;
+            }
+
+        }
+        .rsvp-button {
+            background-color: $tertiary;
+            padding: 15px;
+            border-radius: 25px;
+            width: 30%;
+            color: $primary;
+            border-style: none;
+
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+
+        
+    
+}

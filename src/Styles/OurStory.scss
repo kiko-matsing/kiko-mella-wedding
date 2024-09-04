@@ -1,0 +1,102 @@
+@import './variables';
+
+#OurStory {
+    background-color: $primary;
+    .content {
+        padding: 0 100px;
+        .main-content {
+            padding-left: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 0;
+            .main-story {
+                padding: 0 0 30px 0;
+                width: 60%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                position: relative;
+            
+                .reels {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0;
+                    position: absolute;
+                    .reel-main {
+                        .reel-img {
+                            height: 200px;
+                        }
+                    }
+
+                    &.reel2 {
+                        right: 0;
+                        bottom: 0;
+                        transform: rotate(180deg);
+                    }
+                    &.reel1 {
+                        left: 0;
+                    }
+                }
+                
+
+                
+                .story-main {
+                    background-color: white;
+                    color: red;
+                    padding: 30px 50px;
+                    width: 70%;
+                    margin-left: 60px;
+                    margin-top: 30px;
+                    .title {
+                        font-family: $text-font-primary;
+                        text-align: left;
+                        color: $primary2; 
+                        font-weight: bold;
+                        font-size: 50px;
+                    }
+                    .content {
+                        text-indent: 20px;
+                        text-align: left;
+                        padding: 10px;
+                        font-family: $text-font-secondary;
+                        color: $primary2;
+                        opacity: 0.5;
+                    }
+                }}
+            .main-pic {
+                width: 40%;
+                position: relative;
+                .main-pic {
+                    position: absolute;
+                    background-color: black;
+                    width: 100%;
+                    bottom: 50px;
+                    right: 20px;
+                    height: 350px;
+                    width: 300px;
+                    .pic {
+                        position: absolute;
+                        left: -20px;
+                        top: 20px;
+                        background-color: white;
+                        height: 350px;
+                        width: 300px;
+                        margin: auto;
+                        padding-top: 30px;
+                        img {
+                            height: 250px;
+                        }
+                        .pic-name {
+                            color: $primary2;
+                            font-family: $text-font-primary;
+                            font-weight: 500;
+                            padding-top: 20px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

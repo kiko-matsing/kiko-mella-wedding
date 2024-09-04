@@ -1,0 +1,43 @@
+@import './variables';
+
+#main-timer {
+
+    .content {
+        background-color: white;
+        opacity: .9;
+        width: auto;
+        margin: 200px 20%;
+        padding: 40px 0;
+        .title {
+            font-family: $text-font-primary;
+            color: black;
+            opacity: 1;
+            font-size: 40px;
+        }
+        .couple {
+            font-family: $sail;
+            color: $tertiary;
+            opacity: 1;
+            text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+            font-size: 60px;
+        }
+    }
+    #timer {
+        .main-timer {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            list-style: none;
+            gap: 20px;
+            padding-left: 0;
+            margin-bottom: 0;
+            .timer {
+                font-size: 50px;
+                text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+                color: #897F60;
+                font-family: $raleway;
+            }
+        }
+    }
+}
