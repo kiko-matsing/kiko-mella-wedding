@@ -64,6 +64,9 @@
         .photos {
             width: 50%;
             position: relative;
+            #divider {
+                display: none;
+            }
             .photo-image {
                 width: 100%;
                 height: 100%;
@@ -87,4 +90,34 @@
             }
         }
     }
+
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {  
+        
+        .venue-main {
+            display: flex;
+            flex-direction: column;
+            .main-button {
+                bottom: 20px !important;
+            }
+            .venue {
+                width: 100%;
+                .reels {
+                    display: none;
+                }
+                .church {
+                    padding-top: 0;
+                }
+            }
+
+            .photos {
+                width: 100%;
+                #divider {
+                    display: block;
+                }
+            }
+        }
+    }
+    
+
 }

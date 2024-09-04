@@ -82,4 +82,38 @@
             }
         }
     }
+
+
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {  
+        .content {
+            padding: 0;
+            .main-content {
+                .gift-content {
+                    width: 100%;
+                    .reels {
+                        display: none;
+                    }
+                    .story-main {
+                        padding: 0;
+                        margin-left: 0;
+                        .title {
+                            font-size: 50px;
+
+                        }
+                        .registry {
+                            left: -20px;
+                            top: 10px;
+                        }
+                        .gcash {
+                            height: 300px;
+                        }
+                    }
+                }
+
+        }
+
+    }
+}
+
 }

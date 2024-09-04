@@ -37,4 +37,52 @@
 
         }
     }
+
+        
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {
+        padding: 100px 5%;
+        .content {   
+            padding: 0;
+            .main-content {
+                display: block;
+                .main-story {
+                    width: 100%;
+                    display: block;
+                    padding: calc(100vw - 90vw);
+                    .reels {
+                        display: none !important;
+                    }
+                    .story-main {
+                        width: 100%;
+                        margin-left: 0;
+                        margin-top: 0;
+                        padding: 0;
+                        
+                    }
+                }
+                .main-pic {
+                    @media only screen and (max-width: 768px) {
+                        width: 100%;
+                        padding-bottom: 20px !important;
+                        margin: auto;
+                        .main-pic {
+                            position: static !important;
+                            width: 90% !important;
+                            padding: 10px 0;
+                            }
+
+                        .pic {
+                            position: static !important;
+                            width: 80% !important;
+                            height: unset !important;
+
+                        }
+                        }
+
+                }
+                    
+            }
+        }
+    }
 }

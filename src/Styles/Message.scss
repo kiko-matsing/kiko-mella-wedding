@@ -40,4 +40,21 @@
             }
         }
     }
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {
+        .message-container {
+
+            flex-direction: column-reverse;
+            .image {
+                width: 100%;
+            }
+            .message {
+                width: 100%;
+                padding: 50px 5%;
+            }
+
+    
+        }
+            
+    }
 }

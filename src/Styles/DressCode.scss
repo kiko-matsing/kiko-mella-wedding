@@ -62,4 +62,27 @@
     .svg {
         position: absolute;
     }
+
+    .svg-mobile {
+        display: none;
+    }
+
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {
+        .svg {
+            display: none;
+        }
+        .svg-mobile {
+            display: block;
+        }
+        .colors {
+            .color-main {
+                .color {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+
+    }
 }

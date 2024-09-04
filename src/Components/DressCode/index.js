@@ -28,6 +28,9 @@ const DressCode = () => {
                 <p className="text">We'd love to see you in these colors:</p>
                 <p className="text">Nude or any Neutral Colors</p>
             </div>
+            <div className="svg-mobile">
+                <DressCodeSvg />
+            </div>
             <div className="colors">
                 <ul className="color-main">
                     <li className="color color1"></li>

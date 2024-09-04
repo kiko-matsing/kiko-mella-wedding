@@ -2,4 +2,11 @@
 
 #capture {
     background-color: $primary;
+    
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {
+        img {
+            width: 100%
+        }
+    }
 }

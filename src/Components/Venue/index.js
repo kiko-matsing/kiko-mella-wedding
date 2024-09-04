@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Reels from "../Reels";
 import ChurchSvg from "../Svg/ChurchSvg";
 import kikomella from "../../Assets/kikomella5.png"
+import Divider from "../Divider";
 
 const Venue = () => {
     return (
@@ -25,14 +26,13 @@ const Venue = () => {
                     </div>
                 </li>
                 <li className="photos">
+                    <Divider reels={15}/>
                     <img src={kikomella} alt="kikomella" className="photo-image"/>
                     <div className="main-button">
                         <button className="photo-button">Photos</button>
                     </div>
                 </li>
             </ul>
-
-
         </section>
     )
 }

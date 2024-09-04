@@ -11,7 +11,7 @@
         list-style: none;
         padding-left: 0;
         .rsvp-left{
-            width: 50%;
+            width: 100%;
         }
     }
     .rsvp-contents {
@@ -75,7 +75,7 @@
             background-color: $tertiary;
             padding: 15px;
             border-radius: 25px;
-            width: 30%;
+            width: 50%;
             color: $primary;
             border-style: none;
 
@@ -85,6 +85,24 @@
         }
     }
 
+        
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {  
+        padding: 100px 5%;
+        .rsvp-main-contents {
+            flex-direction: column;
+            .rsvp-left {
+                margin-bottom: 40px;
+            }
+        }
+        .rsvp-contents {
+            .rtc {
+                margin-bottom: 20px;
+            }
+
+        }
+    
+    }
         
     
 }

@@ -11,4 +11,20 @@
         font-family: $text-font-primary;
         font-size: 50px;
     }
+
+        
+//////////////////////// Mobile View ////////////////////////
+    padding: 30px 5%;
+    @media only screen and (max-width: 768px) {
+
+        .title {
+            font-size: 30px;
+
+        }
+        video {
+            padding-top: 50px;
+            width: 100%;
+            height: auto;
+        }
+    }
 }
