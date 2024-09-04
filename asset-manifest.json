@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/kiko-mella/static/css/main.7a2da7b1.css",
-    "main.js": "/kiko-mella/static/js/main.c118dcdf.js",
-    "static/js/633.c049dc17.chunk.js": "/kiko-mella/static/js/633.c049dc17.chunk.js",
-    "static/js/453.b537fb39.chunk.js": "/kiko-mella/static/js/453.b537fb39.chunk.js",
-    "static/media/prenupVid.mp4": "/kiko-mella/static/media/prenupVid.0626edd99bdf38a97168.mp4",
-    "static/media/kikomella5.png": "/kiko-mella/static/media/kikomella5.717d3d3868ef68ea290e.png",
-    "static/media/garden.webp": "/kiko-mella/static/media/garden.29ebe7ac02156098ed60.webp",
-    "static/media/gcash.jpg": "/kiko-mella/static/media/gcash.7454ad49dd4f51652817.jpg",
-    "static/media/reels.png": "/kiko-mella/static/media/reels.1354e454a9361aa5a8e5.png",
-    "static/media/reels2.png": "/kiko-mella/static/media/reels2.d8ff17d0bcc967fd4148.png",
-    "static/media/bells.webp": "/kiko-mella/static/media/bells.7a198581f1a2586f29ef.webp",
-    "static/media/dress.webp": "/kiko-mella/static/media/dress.3d1db070654cde4a5d2f.webp",
-    "static/media/candles.webp": "/kiko-mella/static/media/candles.cee204f0480d6f89e955.webp",
-    "static/media/camera.webp": "/kiko-mella/static/media/camera.6bf4b9ccbba52938f723.webp",
-    "static/media/logo.svg": "/kiko-mella/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/kiko-mella/index.html",
-    "main.7a2da7b1.css.map": "/kiko-mella/static/css/main.7a2da7b1.css.map",
-    "main.c118dcdf.js.map": "/kiko-mella/static/js/main.c118dcdf.js.map",
-    "633.c049dc17.chunk.js.map": "/kiko-mella/static/js/633.c049dc17.chunk.js.map",
-    "453.b537fb39.chunk.js.map": "/kiko-mella/static/js/453.b537fb39.chunk.js.map"
+    "main.css": "/kiko-mella/public/static/css/main.e5a0d1f2.css",
+    "main.js": "/kiko-mella/public/static/js/main.c2f939ef.js",
+    "static/js/633.c049dc17.chunk.js": "/kiko-mella/public/static/js/633.c049dc17.chunk.js",
+    "static/js/453.b537fb39.chunk.js": "/kiko-mella/public/static/js/453.b537fb39.chunk.js",
+    "static/media/prenupVid.mp4": "/kiko-mella/public/static/media/prenupVid.0626edd99bdf38a97168.mp4",
+    "static/media/kikomella5.png": "/kiko-mella/public/static/media/kikomella5.717d3d3868ef68ea290e.png",
+    "static/media/garden.webp": "/kiko-mella/public/static/media/garden.29ebe7ac02156098ed60.webp",
+    "static/media/gcash.jpg": "/kiko-mella/public/static/media/gcash.7454ad49dd4f51652817.jpg",
+    "static/media/reels.png": "/kiko-mella/public/static/media/reels.1354e454a9361aa5a8e5.png",
+    "static/media/reels2.png": "/kiko-mella/public/static/media/reels2.d8ff17d0bcc967fd4148.png",
+    "static/media/bells.webp": "/kiko-mella/public/static/media/bells.7a198581f1a2586f29ef.webp",
+    "static/media/dress.webp": "/kiko-mella/public/static/media/dress.3d1db070654cde4a5d2f.webp",
+    "static/media/candles.webp": "/kiko-mella/public/static/media/candles.cee204f0480d6f89e955.webp",
+    "static/media/camera.webp": "/kiko-mella/public/static/media/camera.6bf4b9ccbba52938f723.webp",
+    "static/media/logo.svg": "/kiko-mella/public/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kiko-mella/public/index.html",
+    "main.e5a0d1f2.css.map": "/kiko-mella/public/static/css/main.e5a0d1f2.css.map",
+    "main.c2f939ef.js.map": "/kiko-mella/public/static/js/main.c2f939ef.js.map",
+    "633.c049dc17.chunk.js.map": "/kiko-mella/public/static/js/633.c049dc17.chunk.js.map",
+    "453.b537fb39.chunk.js.map": "/kiko-mella/public/static/js/453.b537fb39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a2da7b1.css",
-    "static/js/main.c118dcdf.js"
+    "static/css/main.e5a0d1f2.css",
+    "static/js/main.c2f939ef.js"
   ]
 }
