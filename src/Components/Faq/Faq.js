@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import FaqContents from "./FaqContents";
+import { Link } from "react-router-dom";
 
 function Faq() {
     const [show, setShow] = useState(false);
@@ -27,26 +27,8 @@ function Faq() {
               <div className="more">
                 <p>Got more Question ? Please click here</p>
               </div>
-              
+              <Link to="faq" className="faq-button">Questions And Answer</Link>
 
-          <>
-            <Button variant="primary" onClick={handleShow} className="faq-button">
-              Questions And Answer
-            </Button>
-            <Modal show={show} onHide={handleClose} className="faq-modal">
-              <Modal.Header closeButton>
-                <Modal.Title>FAQ</Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                <FaqContents />
-              </Modal.Body>
-              <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
-                  Close
-                </Button>
-              </Modal.Footer>
-            </Modal>
-          </>
             </li>
 
           </ul>

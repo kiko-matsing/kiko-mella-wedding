@@ -12,7 +12,6 @@ import Venue from "../Components/Venue";
 import Message from "../Components/Message";
 import DressCode from "../Components/DressCode";
 import Capture from "../Components/Capture";
-import Footer from "../Components/Footer";
 
 
 
@@ -38,8 +37,6 @@ const Home = () => {
             <DressCode />
             <Capture />
             <Faq />
-            <Divider reels={15}/>
-            <Footer />
         </div>
     )
 }

@@ -5,14 +5,13 @@ import {
     faBars,
     faXmark,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 
 const NavContainer = NavLists.map(NavList => {
     return (
         <li>
-            <a href={NavList.link} className='navbar-links' key={NavList.id}>
-                {NavList.title}
-            </a>
+            <Link to={NavList.link} className='navbar-links'>{NavList.title}</Link>
         </li>
     )
 

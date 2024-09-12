@@ -2,32 +2,32 @@
 export const NavLists = [
     {
         id: "1",
-        title: "Events",
-        link: "kiko-mella-wedding/#/"
+        title: "Home",
+        link: "/"
     },
     {
         id: "2",
         title: "Gifts",
-        link: "sample"
+        link: "gifts"
     },
     {
         id: "3",
         title: "Photo Book",
-        link: "sample"
+        link: "photo-book"
     },
     {
         id: "4",
         title: "Guests",
-        link: "sample"
+        link: "guests"
     },
     {
         id: "5",
         title: "Things To Do",
-        link: "sample"
+        link: "things-to-do"
     },
     {
         id: "6",
         title: "FAQ",
-        link: "kiko-mella-wedding/#/MainFaq"
+        link: "faq"
     },
 ]
