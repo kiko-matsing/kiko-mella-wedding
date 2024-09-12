@@ -1,19 +1,19 @@
 import './App.scss';
 import Home from './Pages/Home';
 import MainFaq from './Pages/MainFaq';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route path="/kiko-mella-wedding" element={<Home />} />
-          <Route path="/kiko-mella-wedding/MainFaq" element={<MainFaq />} />
+          <Route path="/MainFaq" element={<MainFaq />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
