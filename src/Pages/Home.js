@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Faq from "../Components/Faq/Faq";
-import Navbar from "../Components/Navbar";
 import Carousel from "../Components/Carousel";
 import OurStory from "../Components/OurStory";
 import Divider from "../Components/Divider";
@@ -21,7 +20,6 @@ const Home = () => {
 
     return (
         <div className="home">
-            <Navbar />
             <Carousel />
             <OurStory />
             <Divider reels={15}/>

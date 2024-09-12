@@ -3,7 +3,7 @@ export const NavLists = [
     {
         id: "1",
         title: "Events",
-        link: "sample"
+        link: "/#/"
     },
     {
         id: "2",
@@ -28,6 +28,6 @@ export const NavLists = [
     {
         id: "6",
         title: "FAQ",
-        link: "#faq"
+        link: "/#/MainFaq"
     },
 ]
