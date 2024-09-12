@@ -4,7 +4,7 @@
     background-image: url(../Assets/dress.webp);
     background-repeat: no-repeat;
     background-size: cover;         
-    padding: 200px 15%;
+    padding: 5% 15%;
     .rsvp-main-contents {
         display: flex;
         flex-direction: row;
@@ -23,7 +23,7 @@
             color: $primary;
             font-size: 38px !important;
             font-family: $text-font-primary !important;
-            margin-bottom: 100px;
+            margin-bottom: 100px !important;
         }
 
         .pls {
@@ -42,6 +42,7 @@
                 font-family: $raleway;
                 font-weight: 300;
                 font-size: 15px;
+                margin: 0;
 
             }
             hr {

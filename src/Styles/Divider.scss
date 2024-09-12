@@ -16,9 +16,11 @@
         overflow: hidden;
         margin-bottom: 0;
         list-style: none;
+        margin-top: 0;
         .reel-main {
             img {
                 height: 50px;
+                display: block;
             }
         }
     }

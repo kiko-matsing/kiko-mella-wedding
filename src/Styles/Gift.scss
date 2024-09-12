@@ -16,9 +16,11 @@
                     flex-direction: column;
                     padding-left: 0;
                     position: absolute;
+                    margin: 0;
                     .reel-main {
                         .reel-img {
                             height: 200px;
+                            display: block;
                         }
                     }
 
@@ -35,7 +37,7 @@
 
                 
                 .story-main {
-                    padding: 30px 50px;
+                    padding: 0 50px;
                     margin-left: 60px;
                     .title {
                         font-family: $text-font-primary;
@@ -46,6 +48,7 @@
                         position: relative;
                         color: $tertiary;
                         font-family: $rozha;
+                        margin: 0;
                     }
 
                     .registry {
