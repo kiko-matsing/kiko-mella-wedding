@@ -1,7 +1,7 @@
-@import './variables';
 
+@import './../variables';
 #main-rsvp{
-    background-image: url(../Assets/dress.webp);
+    background-image: url(../../Assets/dress.webp);
     background-repeat: no-repeat;
     background-size: cover;         
     padding: 5% 15%;
@@ -50,6 +50,7 @@
                 width: 5%;
                 margin: 10px auto 20px;
                 background-color: $primary;
+                border-width: 0;
             }
             .timer {
                 font-weight: 300;

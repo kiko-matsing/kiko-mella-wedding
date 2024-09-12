@@ -1,7 +1,7 @@
-@import './variables';
 
+@import './../variables';
 #main-save-the-date {
-    background-image: url(../Assets/candles.webp);
+    background-image: url(../../Assets/candles.webp);
     background-repeat: no-repeat;
     background-size: cover;         
     padding: 5% 20%;

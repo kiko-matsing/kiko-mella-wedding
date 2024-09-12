@@ -40,7 +40,12 @@ const Navbar = (props) => {
 
                 <ul className="mobile-navbar-links">
                     
-                    {NavContainer}
+                    <Link to="/" className='navbar-links' onClick={openNav}>Home</Link>
+                    <Link to="/gifts" className='navbar-links' onClick={openNav}>Gifts</Link>
+                    <Link to="/photo-book" className='navbar-links' onClick={openNav}>Photo Book</Link>
+                    <Link to="/guests" className='navbar-links' onClick={openNav}>Guests</Link>
+                    <Link to="/things-to-do" className='navbar-links' onClick={openNav}>Things To Do</Link>
+                    <Link to="/faq" className='navbar-links' onClick={openNav}>FAQ</Link>
                     
                 </ul>
             </div>

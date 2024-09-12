@@ -1,0 +1,25 @@
+
+@import './../variables';
+
+#photo-book {
+    background-color: $primary;
+    padding: 5%;
+    .main {
+        margin: 0;
+        display: inline;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-left: 0;
+        gap: 5px;
+        width: 100%;
+
+        .image {
+            display: inline;
+            padding: 5px;
+            img {
+                width: 45%;
+                display: inline;
+            }
+        }
+    }
+}

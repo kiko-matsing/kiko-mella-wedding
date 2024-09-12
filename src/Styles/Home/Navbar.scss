@@ -1,6 +1,6 @@
 
-@import './variables';
 
+@import './../variables';
 .navbar-section {
     display: flex;
 
@@ -47,12 +47,13 @@
     /* Hamburger Icon */
     .mobile-nav {
         display: none;
+        color: $primary;
     }
     .hamb-icon {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        color: $primary;
+        color: $tertiary;
         opacity: 0.8;
     }
     /* Mobile Navbar */
@@ -74,6 +75,7 @@
         position: absolute;
         top: 28px;
         right: 28px;
+        color: $tertiary !important;
     }
     .mobile-navbar-close .hamb-icon:hover {
         opacity: 1;
@@ -89,7 +91,9 @@
         gap: 24px;
         text-align: center;
     }
-    .mobile-navbar-links li a {
+    .mobile-navbar-links a {
+
+        color: $tertiary !important;
         text-decoration: none;
         color: black;
         opacity: .6;
