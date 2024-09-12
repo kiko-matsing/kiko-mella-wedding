@@ -19,15 +19,8 @@ import Footer from "../Components/Footer";
 
 const Home = () => {
 
-    const [theme, setTheme] = useState(true);
-
-    const onThemeChange = () => {
-        setTheme(!theme);
-    }
-
-
     return (
-        <div className={`home-section ${theme ? 'light' : 'dark'}`}>
+        <div className="home">
             <Navbar />
             <Carousel />
             <OurStory />

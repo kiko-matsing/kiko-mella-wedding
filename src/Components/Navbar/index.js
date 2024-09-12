@@ -7,7 +7,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 
-
 const NavContainer = NavLists.map(NavList => {
     return (
         <li>
