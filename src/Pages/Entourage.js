@@ -51,38 +51,69 @@ const Entourage = () => {
             <ul className="entourage">
               {ContentPlacer(ParentsGroom)}
             </ul>
+
+
+ {/* principal */}
             <div className="title sub-title">Principal Sponsors</div>
-            <div className="title">Ninongs</div>
-            <ul className="entourage">
-              {ContentPlacer(Ninongs)}
-            </ul>
+            <ul className="mobileView">
+              <ul className="entourage">
+                <li className="title">Ninongs</li>
+                {ContentPlacer(Ninongs)}
+              </ul>
 
-            <div className="title">Ninangs</div>
-            <ul className="entourage">
-              {ContentPlacer(Ninangs)}
-            </ul>
-
-
-
-            <div className="title sub-title">Principal Sponsors</div>
-            <div className="title">Maif of Honor</div>
-            <ul className="entourage">
-              {ContentPlacer(MaifOfHonor)}
-            </ul>
-            <div className="title">Best Man</div>
-            <ul className="entourage">
-              {ContentPlacer(BestMan)}
-            </ul>
-            <div className="title">Groomsmen</div>
-            <ul className="entourage">
-              {ContentPlacer(Groomesmen)}
-            </ul>
-            <div className="title">Bridesmaid</div>
-            <ul className="entourage">
-              {ContentPlacer(BridesMaid)}
+              <ul className="entourage">
+                <li className="title">Ninangs</li>
+                {ContentPlacer(Ninangs)}
+              </ul>
             </ul>
 
 
+ {/* secondary */}
+ {/* mobile view */}
+            <div className="mobile">
+              <div className="title sub-title">Secondary Sponsors</div>
+              <div className="title">Maif of Honor</div>
+              <ul className="entourage">
+                {ContentPlacer(MaifOfHonor)}
+              </ul>
+              <div className="title">Best Man</div>
+              <ul className="entourage">
+                {ContentPlacer(BestMan)}
+              </ul>
+              <div className="title">Groomsmen</div>
+              <ul className="entourage">
+                {ContentPlacer(Groomesmen)}
+              </ul>
+              <div className="title">Bridesmaid</div>
+              <ul className="entourage">
+                {ContentPlacer(BridesMaid)}
+              </ul>
+            </div>
+
+{/* web view */}
+            <div className="title sub-title web">Secondary Sponsors</div>
+            <ul className="mobileView web">
+              <ul className="entourage">
+
+                <div className="title">Maif of Honor</div>
+                <ul className="entourage">
+                  {ContentPlacer(MaifOfHonor)}
+                </ul>
+                <li className="title">Bridesmaid</li>
+                {ContentPlacer(BridesMaid)}
+              </ul>
+
+              <ul className="entourage">
+
+                <div className="title">Best Man</div>
+                <ul className="entourage">
+                  {ContentPlacer(BestMan)}
+                </ul>
+                <li className="title">Groomsmen</li>
+                {ContentPlacer(Groomesmen)}
+              </ul>
+            </ul>
+{/* end of secondary */}
 
             <div className="title">Candle</div>
             <ul className="entourage">
