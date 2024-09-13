@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, } from "framer-motion";
-import { fadeUpAnimationVariants } from "../../Data/FadeAnimation";
+import { fadeUpAnimationVariants } from "../../../Data/FadeAnimation";
 
 const SaveTheDate = () => {
 

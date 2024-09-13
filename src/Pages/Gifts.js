@@ -1,5 +1,5 @@
 import React from "react";
-import Gift from "../Components/Gift";
+import Gift from "../Components/Home/Gift";
 
 
 const MainGifts = () => {

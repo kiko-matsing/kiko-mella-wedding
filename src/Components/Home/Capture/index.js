@@ -1,5 +1,5 @@
 import React from "react";
-import Camera from "../../Assets/camera.webp"
+import Camera from "../../../Assets/camera.webp"
 
 
 const Capture = () => {

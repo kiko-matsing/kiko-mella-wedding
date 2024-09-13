@@ -1,5 +1,5 @@
 import React from "react";
-import prenupVideo from "../../AssetsVideos/prenupVid.mp4"
+import prenupVideo from "../../../AssetsVideos/prenupVid.mp4"
 
 const VideoPrenup = () => {
     return (

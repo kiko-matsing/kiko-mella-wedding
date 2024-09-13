@@ -17,13 +17,13 @@ export const NavLists = [
     },
     {
         id: "4",
-        title: "Guests",
-        link: "guests"
+        title: "Entourage",
+        link: "entourage"
     },
     {
         id: "5",
-        title: "Things To Do",
-        link: "things-to-do"
+        title: "Venue",
+        link: "venue"
     },
     {
         id: "6",

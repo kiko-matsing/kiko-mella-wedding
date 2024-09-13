@@ -1,4 +1,4 @@
-export const contents = [
+export const contents1 = [
     {
         id: 0,
         title: "Do you allow cross-dressing during the wedding ceremonies?",
@@ -43,10 +43,22 @@ export const contents = [
         content: `Please let the groom and bride know that you cheche
         `
     },
+]
+
+export const contents2 = [
     {
-        id: 5,
-        title: "Is the table in the reception are first come first serve ?",
-        content: `Hinde. numbered yun
-        `
+        id: 0,
+        title: "Can I bring someone else to your wedding with me?",
+        content: `Unfortunately, no. We hope you understand that we can no longer accommodate those who are not in our guest list due to limited seats. Each seat has a name assigned.`
+    },
+    {
+        id: 0,
+        title: "What time should I arrive?",
+        content: `Help us get the party as scheduled! We recommend that you arrive an hour before the start of the ceremony to make sure everyone is seated on time.`
+    },
+    {
+        id: 0,
+        title: "Can we take photos or video during the ceremony?",
+        content: `Our ceremony is unplugged, and we aim to keep it solemn. All guest are requested to refrain from taking pictures or videos during the wedding ceremony. After we announce ourselves as husband and wife, you're free to take a shot. Most importantly hired photo and video team. We promise to share the photos after the wedding. Thank you! `
     },
 ]

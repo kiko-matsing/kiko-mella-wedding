@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Reels from "../Reels";
-import { fadeDownAnimationVariants } from "../../Data/FadeAnimation";
-import Bells from "../../Assets/bells.webp"
+import Reels from "../../Reels";
+import { fadeDownAnimationVariants } from "../../../Data/FadeAnimation";
+import Bells from "../../../Assets/bells.webp"
 
-import Gcash from "../../Assets/gcash.jpg"
+import Gcash from "../../../Assets/gcash.jpg"
 
 const Gift = () => {
     return (

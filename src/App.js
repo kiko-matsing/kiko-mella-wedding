@@ -13,8 +13,8 @@ import Home from './Pages/Home';
 import MainFaq from './Pages/MainFaq';
 import MainGifts from './Pages/Gifts';
 import PhotoBook from './Pages/PhotoBook';
-import ThingsToDo from './Pages/ThingsToDo';
-import Guests from './Pages/Guests';
+import Entourage from './Pages/Entourage';
+import MainVenue from './Pages/Venue';
 
 
 
@@ -28,8 +28,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="gifts" element={<MainGifts />} />
             <Route path="photo-book" element={<PhotoBook />} />
-            <Route path="guests" element={<Guests />} />
-            <Route path="things-to-do" element={<ThingsToDo />} />
+            <Route path="entourage" element={<Entourage />} />
+            <Route path="venue" element={<MainVenue />} />
             <Route path="faq" element={<MainFaq />} />
           </Route>
         </Routes>

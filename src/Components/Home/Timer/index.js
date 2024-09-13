@@ -2,7 +2,7 @@ import React from "react";
 import useTimer from "./Time";
 import Timer from "./Timer";
 import { motion, useScroll } from "framer-motion";
-import { fadeUpAnimationVariants } from "../../Data/FadeAnimation";
+import { fadeUpAnimationVariants } from "../../../Data/FadeAnimation";
 
 const Time = () => {
 

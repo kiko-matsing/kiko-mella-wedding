@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const ThingsToDo = () => {
+const MainVenue = () => {
     return (
         <div>
             sample page
@@ -9,4 +9,4 @@ const ThingsToDo = () => {
     )
 }
 
-export default ThingsToDo
+export default MainVenue

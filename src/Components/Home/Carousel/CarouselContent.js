@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import kikomella5 from "./../../Assets/kikomella5.png"
+import kikomella5 from "./../../../Assets/kikomella5.png"
 import Flickity from 'react-flickity-component'
 
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, } from "framer-motion";
-import { fadeUpAnimationVariants } from "../../Data/FadeAnimation";
-import RsvpSvg from "../Svg/RsvpSvg";
+import { fadeUpAnimationVariants } from "../../../Data/FadeAnimation";
+import RsvpSvg from "../../Svg/RsvpSvg";
 import useTimer from "../Timer/Time";
 
 const Rsvp = () => {

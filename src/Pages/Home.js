@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import Faq from "../Components/Faq/Faq";
-import Carousel from "../Components/Carousel";
-import OurStory from "../Components/OurStory";
+import Faq from "../Components/Home/Faq/Faq";
+import Carousel from "../Components/Home/Carousel";
+import OurStory from "../Components/Home/OurStory";
 import Divider from "../Components/Divider";
-import Time from "../Components/Timer";
-import SaveTheDate from "../Components/SaveTheDate";
-import VideoPrenup from "../Components/VideoPrenup";
-import Rsvp from "../Components/Rsvp";
-import Gift from "../Components/Gift";
-import Venue from "../Components/Venue";
-import Message from "../Components/Message";
-import DressCode from "../Components/DressCode";
-import Capture from "../Components/Capture";
+import Time from "../Components/Home/Timer";
+import SaveTheDate from "../Components/Home/SaveTheDate";
+import VideoPrenup from "../Components/Home/VideoPrenup";
+import Rsvp from "../Components/Home/Rsvp";
+import Gift from "../Components/Home/Gift";
+import Venue from "../Components/Home/Venue";
+import Message from "../Components/Home/Message";
+import DressCode from "../Components/Home/DressCode";
+import Capture from "../Components/Home/Capture";
 
 
 

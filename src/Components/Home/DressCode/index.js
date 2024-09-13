@@ -1,5 +1,5 @@
 import React from "react";
-import DressCodeSvg from "../Svg/DressCodeSvg";
+import DressCodeSvg from "../../Svg/DressCodeSvg";
 
 
 

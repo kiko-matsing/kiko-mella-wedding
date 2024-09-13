@@ -1,9 +1,9 @@
 import React from "react";
-import { OurStoryData } from "../../Data/OurStory";
-import kikomella5 from "../../Assets/kikomella5.png"
+import { OurStoryData } from "../../../Data/OurStory";
+import kikomella5 from "../../../Assets/kikomella5.png"
 import { motion } from "framer-motion";
-import Reels from "../Reels";
-import { fadeDownAnimationVariants } from "../../Data/FadeAnimation";
+import Reels from "../../Reels";
+import { fadeDownAnimationVariants } from "../../../Data/FadeAnimation";
 
 const OurStory = () => {
     return (

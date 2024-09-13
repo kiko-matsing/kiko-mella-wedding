@@ -1,0 +1,49 @@
+
+@import './../variables';
+
+
+#entourage {
+    background-color: $bg-primary;
+    padding: 5%;
+    .entourage-main {
+        color: $primary2;
+        font-family: $text-font-primary;
+
+        .wed {
+            margin-bottom: 3rem;
+            font-size: 2rem;
+            text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+            
+            
+        }
+        .title {
+
+            font-size: 2rem;
+            font-weight: 900;
+            
+        }
+        .sub-title{
+            margin-bottom: 2rem;
+
+        }
+        .main-title {
+            font-size: 3rem;
+
+        }
+        .entourage {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 3rem;
+
+            .name {
+                color: $primary2;
+                font-family: $raleway;
+                padding: 5px 0;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    
+}
