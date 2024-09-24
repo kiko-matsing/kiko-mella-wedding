@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/kiko-mella-wedding/static/css/main.54238f80.css",
-    "main.js": "/kiko-mella-wedding/static/js/main.5a79ecc4.js",
+    "main.css": "/kiko-mella-wedding/static/css/main.143ca52f.css",
+    "main.js": "/kiko-mella-wedding/static/js/main.92b25703.js",
     "static/js/633.c049dc17.chunk.js": "/kiko-mella-wedding/static/js/633.c049dc17.chunk.js",
     "static/js/453.b537fb39.chunk.js": "/kiko-mella-wedding/static/js/453.b537fb39.chunk.js",
     "static/media/prenupVid.mp4": "/kiko-mella-wedding/static/media/prenupVid.0626edd99bdf38a97168.mp4",
     "static/media/kikomella5.png": "/kiko-mella-wedding/static/media/kikomella5.717d3d3868ef68ea290e.png",
     "static/media/garden.webp": "/kiko-mella-wedding/static/media/garden.29ebe7ac02156098ed60.webp",
+    "static/media/map.png": "/kiko-mella-wedding/static/media/map.a53d7d6531b9cfe3c312.png",
+    "static/media/church_bg.webp": "/kiko-mella-wedding/static/media/church_bg.49df7643748e2d7b304f.webp",
+    "static/media/venue.webp": "/kiko-mella-wedding/static/media/venue.45bca256978b490ec532.webp",
     "static/media/gcash.jpg": "/kiko-mella-wedding/static/media/gcash.7454ad49dd4f51652817.jpg",
     "static/media/reels.png": "/kiko-mella-wedding/static/media/reels.1354e454a9361aa5a8e5.png",
     "static/media/reels2.png": "/kiko-mella-wedding/static/media/reels2.d8ff17d0bcc967fd4148.png",
     "static/media/bells.webp": "/kiko-mella-wedding/static/media/bells.7a198581f1a2586f29ef.webp",
+    "static/media/church.webp": "/kiko-mella-wedding/static/media/church.f1c6f942bc7965d09bd7.webp",
     "static/media/dress.webp": "/kiko-mella-wedding/static/media/dress.3d1db070654cde4a5d2f.webp",
     "static/media/candles.webp": "/kiko-mella-wedding/static/media/candles.cee204f0480d6f89e955.webp",
     "static/media/camera.webp": "/kiko-mella-wedding/static/media/camera.6bf4b9ccbba52938f723.webp",
     "index.html": "/kiko-mella-wedding/index.html",
-    "main.54238f80.css.map": "/kiko-mella-wedding/static/css/main.54238f80.css.map",
-    "main.5a79ecc4.js.map": "/kiko-mella-wedding/static/js/main.5a79ecc4.js.map",
+    "main.143ca52f.css.map": "/kiko-mella-wedding/static/css/main.143ca52f.css.map",
+    "main.92b25703.js.map": "/kiko-mella-wedding/static/js/main.92b25703.js.map",
     "633.c049dc17.chunk.js.map": "/kiko-mella-wedding/static/js/633.c049dc17.chunk.js.map",
     "453.b537fb39.chunk.js.map": "/kiko-mella-wedding/static/js/453.b537fb39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54238f80.css",
-    "static/js/main.5a79ecc4.js"
+    "static/css/main.143ca52f.css",
+    "static/js/main.92b25703.js"
   ]
 }
