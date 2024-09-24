@@ -6,7 +6,7 @@ function Faq() {
     return (
       <section id='faq'>
         <div className="faq-main">
-          <div className="main-title">Your Questions<span className="title-2"> Answered</span></div>
+          <div className="main-title">Your Questions,<span className="title-2"> Answered</span></div>
           <ul className="faqs">
             <li className="faq faq1">
               <div className="question-title">What time should I arrive?</div>

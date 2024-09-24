@@ -4,6 +4,7 @@ import Reels from "../../Reels";
 import ChurchSvg from "../../Svg/ChurchSvg";
 import kikomella from "../../../Assets/kikomella5.png"
 import Divider from "../../Divider";
+import { Link } from "react-router-dom";
 
 const Venue = () => {
     return (
@@ -22,14 +23,14 @@ const Venue = () => {
                         <ChurchSvg />
                     </div>
                     <div className="main-button">
-                        <button className="photo-button">Venue</button>
+                        <Link to="venue" className="photo-button">Venue</Link>
                     </div>
                 </li>
                 <li className="photos">
                     <Divider reels={15}/>
                     <img src={kikomella} alt="kikomella" className="photo-image"/>
                     <div className="main-button">
-                        <button className="photo-button">Photos</button>
+                        <Link to="photo-book" className="photo-button">Photos</Link>
                     </div>
                 </li>
             </ul>

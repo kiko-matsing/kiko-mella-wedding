@@ -2,22 +2,22 @@
 export const ParentsBride = [
     {
         id: "1",
-        name: "Barok",
+        name: "Reynaldo Señora - Michael Señora",
     },
     {
         id: "2",
-        name: "tita",
+        name: "Delia Señora",
     },
 ]
 
 export const ParentsGroom = [
     {
         id: "1",
-        name: "Francisco B. Quiñola",
+        name: "Francis Quiñola",
     },
     {
         id: "2",
-        name: "Helen G. Quiñola",
+        name: "Helen Quiñola",
     },
 ]
 
@@ -25,43 +25,31 @@ export const ParentsGroom = [
 export const Ninongs = [
     {
         id: "1",
-        name: "Sample",
+        name: "Johan Dela Cerna",
     },
     {
         id: "2",
-        name: "Sample",
+        name: "Fernando Gamboa",
     },
     {
         id: "3",
-        name: "Sample",
+        name: "Ian Cabiltes",
     },
     {
         id: "4",
-        name: "Sample",
+        name: "Efren Sanglay",
     },
     {
         id: "5",
-        name: "Sample",
+        name: "Jerry Cabiltes",
     },
     {
         id: "6",
-        name: "Sample",
+        name: "Harold Gamboa",
     },
     {
         id: "7",
-        name: "Sample",
-    },
-    {
-        id: "8",
-        name: "Sample",
-    },
-    {
-        id: "9",
-        name: "Sample",
-    },
-    {
-        id: "10",
-        name: "Sample",
+        name: "Roder John Corcuera",
     },
 ]
 
@@ -70,43 +58,31 @@ export const Ninongs = [
 export const Ninangs = [
     {
         id: "1",
-        name: "Sample",
+        name: "Marriane Dela Cerna",
     },
     {
         id: "2",
-        name: "Sample",
+        name: "Arlene Gamboa",
     },
     {
         id: "3",
-        name: "Sample",
+        name: "France Anne Gamboa",
     },
     {
         id: "4",
-        name: "Sample",
+        name: "Pinang Hernandez",
     },
     {
         id: "5",
-        name: "Sample",
+        name: "Sister Leysis Navarro",
     },
     {
         id: "6",
-        name: "Sample",
+        name: "Nancy Gamboa",
     },
     {
         id: "7",
-        name: "Sample",
-    },
-    {
-        id: "8",
-        name: "Sample",
-    },
-    {
-        id: "9",
-        name: "Sample",
-    },
-    {
-        id: "10",
-        name: "Sample",
+        name: "Mix Goitia",
     },
 ]
 
@@ -115,43 +91,27 @@ export const Ninangs = [
 export const Groomesmen = [
     {
         id: "1",
-        name: "Sample",
+        name: "Billy Baximen Bading",
     },
     {
         id: "2",
-        name: "Sample",
+        name: "Geral Nino Pornea Bading",
     },
     {
         id: "3",
-        name: "Sample",
+        name: "Michael Pajo may tulo",
     },
     {
         id: "4",
-        name: "Sample",
+        name: "Franklen Quiñola",
     },
     {
         id: "5",
-        name: "Sample",
+        name: "Lucky Angelo Cordovan",
     },
     {
         id: "6",
-        name: "Sample",
-    },
-    {
-        id: "7",
-        name: "Sample",
-    },
-    {
-        id: "8",
-        name: "Sample",
-    },
-    {
-        id: "9",
-        name: "Sample",
-    },
-    {
-        id: "10",
-        name: "Sample",
+        name: "Ambay",
     },
 ]
 
@@ -160,43 +120,27 @@ export const Groomesmen = [
 export const BridesMaid = [
     {
         id: "1",
-        name: "Sample",
+        name: "Jennifer Alarcon",
     },
     {
         id: "2",
-        name: "Sample",
+        name: "Jann Kristine Cervas",
     },
     {
         id: "3",
-        name: "Sample",
+        name: "Mary Jane Radaza",
     },
     {
         id: "4",
-        name: "Sample",
+        name: "Reynalyn Hidalgo",
     },
     {
         id: "5",
-        name: "Sample",
+        name: "Dianne TBD",
     },
     {
         id: "6",
-        name: "Sample",
-    },
-    {
-        id: "7",
-        name: "Sample",
-    },
-    {
-        id: "8",
-        name: "Sample",
-    },
-    {
-        id: "9",
-        name: "Sample",
-    },
-    {
-        id: "10",
-        name: "Sample",
+        name: "Claudine Daquis",
     },
 ]
 
@@ -207,7 +151,7 @@ export const BridesMaid = [
 export const MaifOfHonor = [
     {
         id: "1",
-        name: "Janine Senora",
+        name: "Janine Señora",
     },
 ]
 
@@ -225,11 +169,11 @@ export const BestMan = [
 export const Candle = [
     {
         id: "1",
-        name: "Sample",
+        name: "Maria Jonalyn Concepcion",
     },
     {
         id: "2",
-        name: "Sample",
+        name: "Ayah Reyes",
     },
 ]
 
@@ -238,11 +182,11 @@ export const Candle = [
 export const Cord = [
     {
         id: "1",
-        name: "Sample",
+        name: "Kusain",
     },
     {
         id: "2",
-        name: "Sample",
+        name: "Danica Mae Gabat",
     },
 ]
 
@@ -251,11 +195,11 @@ export const Cord = [
 export const Veil = [
     {
         id: "1",
-        name: "Sample",
+        name: "Fhe Leonila Quiñola",
     },
     {
         id: "2",
-        name: "Sample",
+        name: "Frances Quiñola",
     },
 ]
 
@@ -264,7 +208,7 @@ export const Veil = [
 export const RingBearer = [
     {
         id: "1",
-        name: "Sample",
+        name: "Jhan Eniego Señora",
     },
 ]
 
@@ -272,20 +216,24 @@ export const RingBearer = [
 export const CoinBearer = [
     {
         id: "1",
-        name: "Sample",
+        name: "Jhomari Kiel Dela Cerna",
     },
 ]
 
 export const BibleBearer = [
     {
         id: "1",
-        name: "Sample",
+        name: "Ledz",
     },
 ]
 
 export const FlowerGirl = [
     {
         id: "1",
-        name: "Sample",
+        name: "Fritzie Loreign Joy Quiñola",
+    },
+    {
+        id: "2",
+        name: "Faith Gabriel Quiñola",
     },
 ]

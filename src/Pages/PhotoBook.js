@@ -96,7 +96,9 @@ const photos = [
   
 const PhotoBook = () => {
 
-    return <RowsPhotoAlbum photos={photos} />;
+    return (
+      <div>Page still in development - kiko</div>
+    )
     
 }
 

@@ -15,7 +15,7 @@ const Time = () => {
                     initial="initial"
                     whileInView="animate"
                 >
-                    <h3 className="title">Join Us for the Upcoming Wedding of</h3>
+                    <h3 className="title">Join us for the upcoming Wedding of</h3>
                     <h1 className="couple">Kiko And Mella</h1>
                     <Timer days={days} hours={hours} minutes={minutes} seconds={seconds} />
                 </motion.div>

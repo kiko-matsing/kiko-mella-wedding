@@ -1,0 +1,215 @@
+@import './../variables';
+
+.venue.venue-page {
+    background-color: $primary;    
+
+
+        
+    .maps {
+        .title {
+            color: black;
+            margin: 1rem 0;
+            font-family: $Baskervville;
+            font-size: 3rem;
+        }
+        img {
+            width: 90%;
+            padding: 1% 0;
+        }
+    }
+
+    .bg-opac {
+        position: absolute;
+        background-color: $primary;    
+        height: 100%;
+        width: 100%;
+        opacity: .6;
+    }  
+    #venue-page {  
+        position: relative;
+        background-image: url(../../Assets/church_bg.webp);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;   
+
+        .reels {
+            display: flex;
+            flex-direction: column;
+            padding-left: 0;
+            list-style: none;
+            .reel-main {
+                .reel-img {
+                    height: 200px;
+                    display: block;
+                }
+            }
+                &.reel2 {
+                    position: relative;
+                    right: 0;
+                    bottom: 0;
+                }
+
+
+            
+        }
+        .content {
+            opacity: 1 !important;
+            padding: 0 10rem;
+            .main-content {
+                padding-left: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-bottom: 0;
+                margin-top: 0;
+                .main-venue {
+                    width: 100% !important;
+                    padding: 0 50px 30px 50px;
+                    width: 60%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    position: relative;
+                    // .reels {
+                    //     display: flex;
+                    //     flex-direction: column;
+                    //     padding-left: 0;
+                    //     position: absolute;
+                    //     list-style: none;
+                    //     .reel-main {
+                    //         .reel-img {
+                    //             height: 200px;
+                    //             display: block;
+                    //         }
+                    //     }
+
+                    //     &.reel2 {
+                    //         right: 0;
+                    //         bottom: 0;
+                    //         transform: rotate(180deg);
+                    //     }
+                    //     &.reel1 {
+                    //         left: 0;
+                    //     }
+                    // }
+                    .venue-title {
+                        font-family: $text-font-primary;
+                        font-size: 8rem;
+                        color: #DB5752;
+                        margin: 3rem 0;
+                    }
+
+                    .venue-info {
+
+                        text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;
+                        color: black;
+                        width: 100% !important;
+                        display: flex;
+                        list-style: none;
+                        justify-content: center;
+                        gap: 10px;
+                        padding-left: 0;
+                        .location {
+                            img {
+                                border-radius: 250px 250px 0 0;
+                                height: 25rem;
+                            }
+
+                        }
+                        .location-info {
+                            p {
+                                margin: 0;
+                            }
+                            font-family: $Baskervville;
+                            font-size: 45px ;
+                            .title {
+                                font-size: 60px !important ;
+                                font-family: $text-font-primary;
+                                margin-bottom: 30px;
+                            }
+
+                        }
+                        &.church{
+                            margin-bottom: 10rem;
+                        }
+                        &.reception{
+
+                            flex-direction: row-reverse;
+
+                        }
+                    }
+                }
+                .main-pic {
+                    width: 40%;
+                    position: relative;
+                    .main-pic {
+                        position: absolute;
+                        background-color: black;
+                        width: 100%;
+                        bottom: 50px;
+                        right: 20px;
+                        height: 350px;
+                        width: 300px;
+                        .pic {
+                            position: absolute;
+                            left: -20px;
+                            top: 20px;
+                            background-color: white;
+                            height: 350px;
+                            width: 300px;
+                            margin: auto;
+                            padding-top: 30px;
+                            img {
+                                height: 250px;
+                            }
+                            .pic-name {
+                                color: $primary2;
+                                font-family: $text-font-primary;
+                                font-weight: 500;
+                                padding-top: 20px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        
+    //////////////////////// Mobile View ////////////////////////
+        @media only screen and (max-width: 768px) {
+            .content {
+                padding: 0;
+                .main-content {
+                    display: block;
+                    .main-venue {
+                        width: 100%;
+                        display: block;
+                        padding: calc(100vw - 90vw);
+                        .reels {
+                            display: none !important;
+                        }
+                        .venue-main {
+                            width: 100%;
+                            margin-left: 0;
+                            margin-top: 0;
+                            padding: 0;
+
+                            .venue-info {
+                                flex-direction: column;
+                                .location {
+                                    img {
+
+                                        width: 100%
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }
+                        
+                }
+            }
+        }
+    }
+}
