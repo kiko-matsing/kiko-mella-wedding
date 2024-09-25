@@ -9,13 +9,14 @@
         margin: 200px 20%;
         padding: 40px 0;
         .title {
-            font-family: $text-font-primary;
+            font-family: $rozha;
             color: black;
             opacity: 1;
             font-size: 40px;
+            font-weight: 10;
         }
         .couple {
-            font-family: $sail;
+            font-family: $text-font-primary;
             color: $tertiary;
             opacity: 1;
             text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px;

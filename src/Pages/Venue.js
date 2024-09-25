@@ -19,7 +19,7 @@ const MainVenue = () => {
                         <li className="main-venue venue-content">
 
                 <span className="reels reel1">
-                    <Reels reels={3}/>
+                    <Reels reels={5}/>
                 </span>
                             {/* <div className="reels reel1">
                                 <Reels reels={3}/>
@@ -57,7 +57,7 @@ const MainVenue = () => {
                             </motion.div>
 
                             <span className="reels reel2">
-                                <Reels reels={3}/>
+                                <Reels reels={5}/>
                             </span>
                         </li>
                     </ul>

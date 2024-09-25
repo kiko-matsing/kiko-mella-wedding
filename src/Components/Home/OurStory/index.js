@@ -5,6 +5,15 @@ import { motion } from "framer-motion";
 import Reels from "../../Reels";
 import { fadeDownAnimationVariants } from "../../../Data/FadeAnimation";
 
+
+const content_list = OurStoryData.map(content => {
+    return (
+        <>
+          <p className="content">
+            {content}</p>
+        </>
+    )})
+
 const OurStory = () => {
     return (
         <section className="OurStory" id="OurStory">
@@ -24,7 +33,7 @@ const OurStory = () => {
                             whileInView="animate"
                             >
                             <h1 className="title">Our Story</h1>
-                            <p className="content">{OurStoryData}</p>
+                           {content_list}
                         </motion.div>
 
                     </li>
