@@ -33,10 +33,10 @@ function App() {
             <Route path="faq" element={<MainFaq />} />
           </Route>
         </Routes>
-      
+        
+        <Divider reels={15}/>
+        <Footer />
       </HashRouter>
-      <Divider reels={15}/>
-      <Footer />
     </div>
   );
 }

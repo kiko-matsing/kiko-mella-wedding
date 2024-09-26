@@ -1,11 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
     return (
         <section id="footer">
             <div className="main-footer">
-                <h4 className="title">Kiko And Mella</h4>
+                <ul className="footer-nav">
+                    <Link to="/" className='navbar-links'>Home</Link>
+                    <Link to="gifts" className='navbar-links'>Gifts</Link>
+                    <Link to="photo-book" className='navbar-links'>Photo Book</Link>
+                    <Link to="entourage" className='navbar-links'>Entourage</Link>
+                    <Link to="venue" className='navbar-links'>Venue</Link>
+                    <Link to="faq" className='navbar-links'>FAQ</Link>
+                </ul>
+                <hr />
+                <h4 className="title">#MELLAIfetimepartnernasiKIKO</h4>
             </div>
         </section>
     )

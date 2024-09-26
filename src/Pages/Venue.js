@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { OurStoryData } from "../Data/OurStory";
 import { motion } from "framer-motion";
 import Reels from "../Components/Reels";
@@ -9,6 +9,12 @@ import map from "../Assets/map.png"
 
 
 const MainVenue = () => {
+
+    useEffect(()=>{
+      window.scrollTo(0, 0);
+    },[])
+
+
     return (
         <div className="venue venue-page">
             <section className="venue" id="venue-page">

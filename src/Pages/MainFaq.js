@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { contents1, contents2 } from "../Data/FaqMainContent";
 
@@ -19,6 +19,13 @@ const contents_one = contents1.map(contents => {
   )})
 
 function MainFaq() {
+
+
+    useEffect(()=>{
+      window.scrollTo(0, 0);
+    },[])
+
+
     return (
       <section id='faq'>
         <div className="faq-main">

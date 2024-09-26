@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 /// names
 import { ParentsBride,
@@ -35,6 +35,13 @@ function ContentPlacer(contents) {
 
 
 const Entourage = () => {
+
+
+    useEffect(()=>{
+      window.scrollTo(0, 0);
+    },[])
+
+
     return (
         <section id='entourage'>
           <div className="entourage-main">

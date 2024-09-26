@@ -85,7 +85,7 @@
 
 // export default PhotoBook
 
-import React from "react";
+import React, { useEffect } from "react";
 import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
 
@@ -95,6 +95,12 @@ const photos = [
   ];
   
 const PhotoBook = () => {
+
+
+    useEffect(()=>{
+      window.scrollTo(0, 0);
+    },[])
+
 
     return (
       <div>Page still in development - kiko</div>

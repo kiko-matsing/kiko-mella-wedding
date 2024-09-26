@@ -3,8 +3,34 @@
 #footer {
     background-color: $primary2;
     .title {
-        font-family: $text-font-primary;
+        font-family: $Baskervville;
         margin: 0;
-        padding: 30px 0;
+        padding: 5rem 0;
+    }
+
+    .footer-nav {
+        margin: 0;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        list-style: none;
+        .navbar-links {
+            color: white;
+            text-decoration: none;
+        }
+
+    }
+
+    hr {
+        width: 70%;
+        color: $secondary
+    }
+
+//////////////////////// Mobile View ////////////////////////
+    @media only screen and (max-width: 768px) {
+        .footer-nav {
+            flex-direction: column;
+        }
     }
 }

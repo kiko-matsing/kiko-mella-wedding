@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import Faq from "../Components/Home/Faq/Faq";
 import Carousel from "../Components/Home/Carousel";
 import OurStory from "../Components/Home/OurStory";
@@ -16,6 +16,10 @@ import Capture from "../Components/Home/Capture";
 
 
 const Home = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0, 0);
+      },[])
 
     return (
         <div className="home">
