@@ -13,6 +13,7 @@ const Footer = () => {
                     <Link to="entourage" className='navbar-links'>Entourage</Link>
                     <Link to="venue" className='navbar-links'>Venue</Link>
                     <Link to="faq" className='navbar-links'>FAQ</Link>
+                    <Link to="rsvp" className='navbar-links'>RSVP</Link>
                 </ul>
                 <hr />
                 <h4 className="title">#MELLAIfetimepartnernasiKIKO</h4>

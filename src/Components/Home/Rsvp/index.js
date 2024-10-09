@@ -3,6 +3,7 @@ import { motion, } from "framer-motion";
 import { fadeUpAnimationVariants } from "../../../Data/FadeAnimation";
 import RsvpSvg from "../../Svg/RsvpSvg";
 import useTimer from "../Timer/Time";
+import { Link } from "react-router-dom";
 
 const Rsvp = () => {
 
@@ -61,7 +62,7 @@ const Rsvp = () => {
                             </li>
                             <li className="rsvp-confirmation">
                                 <p className="title">Can you make it ?</p>
-                                <button className="rsvp-button">Register Now</button>
+                                <Link to="rsvp" className='rsvp-button'>Register Now</Link>
                             </li>
                         </ul>
 

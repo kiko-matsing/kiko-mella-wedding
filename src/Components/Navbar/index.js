@@ -46,6 +46,7 @@ const Navbar = (props) => {
                     <Link to="/entourage" className='navbar-links' onClick={openNav}>Entourage</Link>
                     <Link to="/venue" className='navbar-links' onClick={openNav}>Venue</Link>
                     <Link to="/faq" className='navbar-links' onClick={openNav}>FAQ</Link>
+                    <Link to="/rsvp" className='navbar-links' onClick={openNav}>RSVP</Link>
                     
                 </ul>
             </div>

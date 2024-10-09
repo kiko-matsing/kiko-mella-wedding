@@ -15,6 +15,7 @@ import MainGifts from './Pages/Gifts';
 import PhotoBook from './Pages/PhotoBook';
 import Entourage from './Pages/Entourage';
 import MainVenue from './Pages/Venue';
+import Rsvp from './Pages/Rsvp';
 
 
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="entourage" element={<Entourage />} />
             <Route path="venue" element={<MainVenue />} />
             <Route path="faq" element={<MainFaq />} />
+            <Route path="rsvp" element={<Rsvp />} />
           </Route>
         </Routes>
         

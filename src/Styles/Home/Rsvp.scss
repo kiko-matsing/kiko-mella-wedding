@@ -80,6 +80,9 @@
             width: 50%;
             color: $primary;
             border-style: none;
+            display: block;
+            text-decoration: none;
+            margin: auto;
 
             &:hover {
                 opacity: .8;

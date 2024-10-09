@@ -1,0 +1,97 @@
+
+@import './../variables';
+
+
+#rsvp-page {
+    color: $tertiary;
+
+    background-color: $primary;
+    padding: 5rem;
+
+    .intro {
+        .main-title {
+            margin-top: 0;
+            font-family: $text-font-primary;
+            font-size: 5rem;
+        }
+        .date {
+            color: white;
+            display: inline-block;
+            padding: 1rem;
+            margin: 2rem;
+            background-color: $tertiary;
+        }
+    }
+
+    .form {
+        margin-top: 2rem;
+        .fName, .lName, .email, .submit {
+            display: block;
+            margin: auto;
+            .label {
+                text-align: center;
+                display: block;
+                margin: auto;
+                padding: .8rem 0;
+
+            }
+            .input {
+                display: block;
+                margin: auto;
+                background-color: transparent;
+                margin-bottom: .8rem;
+                padding: .1rem 1rem;
+                width: 50%;
+                border: none;
+                border-bottom: .1rem solid $tertiary;
+                color: $tertiary;
+                outline: none;
+
+            }
+            .hash {
+                color: red;
+            }
+        }
+        .fName {
+        }
+        .lName {
+        }
+        .email {
+
+        }
+
+        .msg {
+            display: none;
+            margin-top: 3rem;
+            &.fail {
+                color: red;
+            }
+            &.pass {
+                color: green;
+            }
+
+        }
+
+        .show {
+            display: block;
+
+        }
+        .submit {
+            background-color: $tertiary;
+            padding: 15px;
+            border-radius: 25px;
+            width: 50%;
+            color: $primary;
+            border-style: none;
+            display: block;
+            text-decoration: none;
+            margin: auto;
+
+            &:hover {
+                opacity: .8;
+            }
+
+
+        }
+    }
+}

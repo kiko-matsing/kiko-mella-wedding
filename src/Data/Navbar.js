@@ -30,4 +30,9 @@ export const NavLists = [
         title: "FAQ",
         link: "faq"
     },
+    {
+        id: "7",
+        title: "RSVP",
+        link: "rsvp"
+    },
 ]
