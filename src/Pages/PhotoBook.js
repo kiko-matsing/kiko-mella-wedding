@@ -85,9 +85,10 @@
 
 // export default PhotoBook
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
+import axios from "axios";
 
 const photos = [
     { src: "/kikomella5.png", width: 800, height: 600 },
@@ -102,9 +103,54 @@ const PhotoBook = () => {
     },[])
 
 
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+  
+    const handleSubmit = (e) => {
+  
+      e.preventDefault();
+      const serviceId = "service_k1l9heg"
+      const templateId = "template_l4v41nt"
+      const publicKey = "y77VhhP3PrgRq_WAP"
+    
+      const data = {
+        service_id: serviceId,
+        template_id: templateId,
+        user_id: publicKey,
+        template_params: {
+          from_name: name,
+          from_email: email,
+          to_name: 'Kiko',
+          message: message
+  
+        }
+      }
+  
+        axios.post("https://api.emailjs.com/api/v1.0/email/send", data)
+          .then((res) => {
+            console.log(res.data);
+            setName('');
+            setEmail('');
+            setMessage('');
+       }
+       )
+       .catch((error) => {
+        console.error('Error Sending Message', error)
+       })
+    }
+  
     return (
-      <div>Page still in development - kiko</div>
-    )
+      <form onSubmit={handleSubmit}>
+        <label>Name</label>
+        <input type="text" name="from_name" />
+        <label>Email</label>
+        <input type="email" name="to_name" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
+    );
     
 }
 
