@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "react-photo-album/rows.css";
 import axios from "axios";
+import { motion } from "framer-motion";
+import { fadeDownAnimationVariants } from "../Data/FadeAnimation";
 
   
 const Rsvp = () => {
@@ -62,6 +64,13 @@ const Rsvp = () => {
   
     return (
       <div id="rsvp-page">
+
+
+        <motion.div className="story-main"           
+          variants={fadeDownAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          >
         <div className="intro">
                 <h1 className="main-title">RSVP</h1>
                 <p className="note">We’re so excited to celebrate our special day with you! </p>
@@ -71,7 +80,7 @@ const Rsvp = () => {
             <div className="date">
                 <p className="title">Kiko and Mella</p>
                 <p className="content">April 05, 2025, 03:00 PM</p>
-                <p className="content">Intramuros Manila</p>
+                <p className="content">Manila Cathedral Intramuros Manila</p>
             </div>
         </div>
         <form onSubmit={handleSubmit} className="form">
@@ -111,6 +120,7 @@ const Rsvp = () => {
            <p className={`msg fail ${!isSuccesful ? "show" : ""} `}>{error}</p>
           
         </form>
+        </motion.div>
       </div>
     );
     

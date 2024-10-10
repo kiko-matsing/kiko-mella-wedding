@@ -17,6 +17,8 @@ import { ParentsBride,
         BibleBearer,
         FlowerGirl } from "../Data/Entourage";
 import DressCodeSvg from "../Components/Svg/DressCodeSvg";
+import { motion } from "framer-motion";
+import { fadeDownAnimationVariants } from "../Data/FadeAnimation";
 
 
 
@@ -44,6 +46,12 @@ const Entourage = () => {
 
     return (
         <section id='entourage'>
+
+          <motion.div className="story-main"           
+              variants={fadeDownAnimationVariants}
+              initial="initial"
+              whileInView="animate"
+              >
           <div className="entourage-main">
             <div className="main-title">The Entourage</div>
             <div className="svg"><DressCodeSvg /></div>
@@ -156,6 +164,7 @@ const Entourage = () => {
               {ContentPlacer(FlowerGirl)}
             </ul>
           </div>
+          </motion.div>
         </section>
     )
 }

@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 
 import { contents1, contents2 } from "../Data/FaqMainContent";
+import { motion } from "framer-motion";
+import { fadeDownAnimationVariants } from "../Data/FadeAnimation";
 
 const contents_two = contents2.map(contents => {
     return (
@@ -28,6 +30,12 @@ function MainFaq() {
 
     return (
       <section id='faq'>
+
+        <motion.div className="story-main"           
+          variants={fadeDownAnimationVariants}
+          initial="initial"
+          whileInView="animate"
+          >
         <div className="faq-main">
           <div className="main-title">Your Questions<span className="title-2"> Answered</span></div>
           <ul className="faqs">
@@ -40,6 +48,7 @@ function MainFaq() {
 
           </ul>
         </div>
+        </motion.div>
       </section>
     );
   }
