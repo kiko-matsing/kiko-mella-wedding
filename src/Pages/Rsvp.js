@@ -47,9 +47,9 @@ const Rsvp = () => {
       axios.post("https://api.emailjs.com/api/v1.0/email/send", data)
           .then((res) => {
             console.log(res.data);
-            setlName('');
-            setfName('');
-            setEmail('');
+            // setlName('');
+            // setfName('');
+            // setEmail('');
             setIsLoading(false);
             setIsSuccesful(true);
        }
@@ -117,7 +117,7 @@ const Rsvp = () => {
           <input type="submit" value={!isLoading ? "Send" : "Sending..."} className="submit" disabled={!isLoading ? false : true}/>
           
            <p className={`msg pass ${isSuccesful ? "show" : ""} `}>Email confirmation sent, Please check your inbox. Please inform the couple about the rsvp email that you receive.</p>
-           <p className={`msg fail ${!isSuccesful ? "show" : ""} `}>{error}</p>
+           <p className={`msg fail ${!isSuccesful ? "show" : ""} `}>Email Js error - "{error}". Limit of 200 RSVP has been sent.</p>
           
         </form>
         </motion.div>
