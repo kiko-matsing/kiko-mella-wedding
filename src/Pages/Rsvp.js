@@ -12,12 +12,6 @@ const Rsvp = () => {
       window.scrollTo(0, 0);
     },[])
 
-
-    useEffect(()=>{
-        window.scrollTo(0, 0);
-      },[])
-  
-
     const [fName, setfName] = useState("");
     const [lName, setlName] = useState("");
     const [email, setEmail] = useState("");
@@ -116,8 +110,10 @@ const Rsvp = () => {
             </div>
           <input type="submit" value={!isLoading ? "Send" : "Sending..."} className="submit" disabled={!isLoading ? false : true}/>
           
-           <p className={`msg pass ${isSuccesful ? "show" : ""} `}>Email confirmation sent, Please check your inbox. Please inform the couple about the rsvp email that you receive.</p>
-           <p className={`msg fail ${!isSuccesful ? "show" : ""} `}>Email Js error - "{error}". Limit of 200 RSVP has been sent.</p>
+            <p className={`msg pass ${isSuccesful ? "show" : ""} `}>Email confirmation sent, Please check your inbox. Please inform the couple about the rsvp email that you receive.</p>
+            <p className={`msg fail ${!isSuccesful ? "show" : ""} `}>We're sorry, but the RSVP limit for this event has been reached (maximum of 200 responses) this month. Unfortunately, we can no longer accept any more submissions at this time.
+                Please inform the couple of the issue by reaching out to them directly if you'd like to confirm your attendance or if you have any questions regarding the event. They may be able to accommodate you or provide additional details.
+                Thank you for your understanding!</p>
           
         </form>
         </motion.div>
