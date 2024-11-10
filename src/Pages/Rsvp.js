@@ -41,15 +41,14 @@ const Rsvp = () => {
       axios.post("https://api.emailjs.com/api/v1.0/email/send", data)
           .then((res) => {
             console.log(res.data);
-            // setlName('');
-            // setfName('');
-            // setEmail('');
+            setlName('');
+            setfName('');
+            setEmail('');
             setIsLoading(false);
             setIsSuccesful(true);
        }
        )
        .catch((error) => {
-            console.error('Error Sending Message', error)
             setIsLoading(false);
             setIsSuccesful(false);
             setError(error.response.data);
@@ -111,7 +110,7 @@ const Rsvp = () => {
           <input type="submit" value={!isLoading ? "Send" : "Sending..."} className="submit" disabled={!isLoading ? false : true}/>
           
             <p className={`msg pass ${isSuccesful ? "show" : ""} `}>Email confirmation sent, Please check your inbox. Please inform the couple about the rsvp email that you receive.</p>
-            <p className={`msg fail ${!isSuccesful ? "show" : ""} `}>We're sorry, but the RSVP limit for this event has been reached (maximum of 200 responses) this month. Unfortunately, we can no longer accept any more submissions at this time.
+            <p className={`msg fail ${!isSuccesful && isSuccesful != "" ? "show" : ""} `}>We're sorry, but the RSVP limit for this event has been reached (maximum of 200 responses) this month. Unfortunately, we can no longer accept any more submissions at this time.
                 Please inform the couple of the issue by reaching out to them directly if you'd like to confirm your attendance or if you have any questions regarding the event. They may be able to accommodate you or provide additional details.
                 Thank you for your understanding!</p>
           
