@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kiko-mella-wedding/static/css/main.38ed43d3.css",
-    "main.js": "/kiko-mella-wedding/static/js/main.f09215e5.js",
+    "main.js": "/kiko-mella-wedding/static/js/main.8ac521ff.js",
     "static/js/633.792cc458.chunk.js": "/kiko-mella-wedding/static/js/633.792cc458.chunk.js",
     "static/js/453.271c5dc6.chunk.js": "/kiko-mella-wedding/static/js/453.271c5dc6.chunk.js",
     "static/media/prenupVid.mp4": "/kiko-mella-wedding/static/media/prenupVid.0626edd99bdf38a97168.mp4",
@@ -30,12 +30,12 @@
     "static/media/camera.webp": "/kiko-mella-wedding/static/media/camera.6bf4b9ccbba52938f723.webp",
     "index.html": "/kiko-mella-wedding/index.html",
     "main.38ed43d3.css.map": "/kiko-mella-wedding/static/css/main.38ed43d3.css.map",
-    "main.f09215e5.js.map": "/kiko-mella-wedding/static/js/main.f09215e5.js.map",
+    "main.8ac521ff.js.map": "/kiko-mella-wedding/static/js/main.8ac521ff.js.map",
     "633.792cc458.chunk.js.map": "/kiko-mella-wedding/static/js/633.792cc458.chunk.js.map",
     "453.271c5dc6.chunk.js.map": "/kiko-mella-wedding/static/js/453.271c5dc6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38ed43d3.css",
-    "static/js/main.f09215e5.js"
+    "static/js/main.8ac521ff.js"
   ]
 }
