@@ -12,6 +12,7 @@ import Venue from "../Components/Home/Venue";
 import Message from "../Components/Home/Message";
 import DressCode from "../Components/Home/DressCode";
 import Capture from "../Components/Home/Capture";
+import HeaderContent from "../Components/Home/Header/HeaderContent";
 
 
 
@@ -29,7 +30,7 @@ const Home = () => {
             <Time />
             <Divider reels={15}/>
             <SaveTheDate />
-            <VideoPrenup />
+            {/* <VideoPrenup /> */}
             <Divider reels={15}/>
             <Rsvp />
             <Gift />

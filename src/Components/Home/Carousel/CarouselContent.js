@@ -1,6 +1,4 @@
 import React, { lazy } from "react";
-import kikomella5 from "./../../../Assets/kikomella5.png"
-import Flickity from 'react-flickity-component'
 
 
 export const CarouselContent = () => {
@@ -19,32 +17,10 @@ export const CarouselContent = () => {
     }
     return (
 
-        <Flickity
-                className={'carousel'} // default ''
-                elementType={'div'} // default 'div'
-                options={flickityOptions}
-                disableImagesLoaded={false} // default false
-                reloadOnUpdate // default false
-                static // defa  ult false
-            >
-            <div class="carousel-cell">
-                <img src={kikomella5} alt="orange tree" />
-            </div>
-            <div class="carousel-cell">
-                <img src={kikomella5} alt="orange tree" />
-            </div>
-            <div class="carousel-cell">
-                <img src={kikomella5} alt="orange tree" />
-            </div>
-            <div class="carousel-cell">
-                <img src={kikomella5} alt="orange tree" />
-            </div>
-            <div class="carousel-cell">
-                <img src={kikomella5} alt="orange tree" />
+            <div className="carousel-cell">
+                <p className="title">Kiko & Mella</p>
             </div>
   
-        </Flickity>
-
     )
     
 }

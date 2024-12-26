@@ -1,9 +1,10 @@
 
 @import './../variables';
 #main-rsvp{
-    background-image: url(../../Assets/dress.webp);
+    background-image: url(../../Assets/prenup/faceless/momentum-117.jpg);
     background-repeat: no-repeat;
     background-size: cover;         
+    background-position: center center;    
     padding: 5% 15%;
     .rsvp-main-contents {
         display: flex;
@@ -93,7 +94,7 @@
 
         
 //////////////////////// Mobile View ////////////////////////
-    @media only screen and (max-width: 768px) {  
+    @media only screen and (max-width: 768px) { 
         padding: 100px 5%;
         .rsvp-main-contents {
             flex-direction: column;

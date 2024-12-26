@@ -1,14 +1,15 @@
 
 @import './../variables';
 #main-save-the-date {
-    background-image: url(../../Assets/candles.webp);
+    background-image: url(../../Assets/prenup/final/momentum-7.jpg);
     background-repeat: no-repeat;
-    background-size: cover;         
+    background-size: cover;        
+    background-position: center center;    
     padding: 5% 20%;
     
 
     .content {
-        background-color: black;
+        background-color: white;
         opacity: .7; 
         padding: 50px 10%;
         .text-contents {
@@ -21,13 +22,17 @@
             font-family: $raleway;
             font-size: 40px;
             .text-content {
+                opacity: 1; 
                 & .text1 {
                     font-family: $sail !important;
                     font-size: 60px;
-                    color: $primary;
+                    color: black;
                 }
                 & .text3, & .text5 {
-                    color: $secondary;
+                    color: $primary3-1;
+                }
+                & .text2, & .text4 {
+                    color: $primary3-2;
                 }
                 p {
                     margin-bottom: 0;

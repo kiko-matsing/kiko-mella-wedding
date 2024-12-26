@@ -7,31 +7,39 @@ body { font-family: sans-serif; }
 
 
 #carousel-main {
+  height: 500px;
   background: $primary2;
   padding: 50px 0;
+  background-image: url("../../Assets/prenup/faceless/momentum-256.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center; 
+  position: relative; 
 
 }
 .carousel {
-  background: $primary2;
   width: 80%;
   margin: auto;
 }
 
+
 .carousel-cell {
-  margin-right: 20px;
-  overflow: hidden;
+  position: absolute; 
+  bottom: 0;
+  right: 0;
+    .title {
+    font-family: Snell Roundhand, cursive;;
+    font-size: 3rem;
+    margin-right: 3rem;
+    color: $primary3-4;
+  }
 }
 
-.carousel-cell img {
-  display: block;
-  height: 300px;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
-}
+@media screen and ( max-width: 768px ) {
 
-@media screen and ( min-width: 768px ) {
-  .carousel-cell img {
-    height: 500px;
+  .carousel-cell {
+      .title {
+      font-size: 2rem;
+    }
   }
 }

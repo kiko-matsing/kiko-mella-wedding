@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Reels from "../../Reels";
 import ChurchSvg from "../../Svg/ChurchSvg";
-import kikomella from "../../../Assets/kikomella5.png"
+import igop from "../../../Assets/prenup/final/igop.png"
 import Divider from "../../Divider";
 import { Link } from "react-router-dom";
 
@@ -28,7 +28,7 @@ const Venue = () => {
                 </li>
                 <li className="photos">
                     <Divider reels={15}/>
-                    <img src={kikomella} alt="kikomella" className="photo-image"/>
+                    <img src={igop} alt="igop" className="photo-image"/>
                     <div className="main-button">
                         <Link to="photo-book" className="photo-button">Photos</Link>
                     </div>

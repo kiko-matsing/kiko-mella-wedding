@@ -1,6 +1,6 @@
 import React from "react";
 import { OurStoryData } from "../../../Data/OurStory";
-import kikomella5 from "../../../Assets/kikomella5.png"
+import momentum219 from "../../../Assets/prenup/final/momentum-219.jpg"
 import { motion } from "framer-motion";
 import Reels from "../../Reels";
 import { fadeDownAnimationVariants } from "../../../Data/FadeAnimation";
@@ -22,10 +22,10 @@ const OurStory = () => {
                     <li className="main-story story-content">
 
                         <div className="reels reel1">
-                            <Reels reels={3}/>
+                            <Reels reels={2}/>
                         </div>
                         <div className="reels reel2">
-                            <Reels reels={3}/>
+                            <Reels reels={2}/>
                         </div>
                         <motion.div className="story-main"           
                             variants={fadeDownAnimationVariants}
@@ -40,7 +40,7 @@ const OurStory = () => {
                     <li className="main-pic story-content">
                         <div className="main-pic"> 
                             <div className="pic">
-                                <img src={kikomella5} alt="kikomella5" className="kikomella5" />
+                                <img src={momentum219} alt="momentum219" className="momentum219" />
                                 <p className="pic-name">Kiko And Mella</p>
 
                             </div>
