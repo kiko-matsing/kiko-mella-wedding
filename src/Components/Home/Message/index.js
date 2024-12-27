@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import kikomella from "../../../Assets/prenup/final/momentum-562.jpg"
+import kikomella from "../../../Assets/prenup/final/momentum-522.jpg"
 
 const Message = () => {
     return (

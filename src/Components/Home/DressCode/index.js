@@ -26,7 +26,6 @@ const DressCode = () => {
             </div>
             <div className="main-text">
                 <p className="text">We'd love to see you in these colors:</p>
-                <p className="text">Nude or any Neutral Colors</p>
             </div>
             <div className="svg-mobile">
                 <DressCodeSvg />
@@ -37,7 +36,6 @@ const DressCode = () => {
                     <li className="color color2"></li>
                     <li className="color color3"></li>
                     <li className="color color4"></li>
-                    <li className="color color5"></li>
                 </ul>
             </div>
 

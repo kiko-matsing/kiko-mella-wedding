@@ -22,7 +22,7 @@ const SaveTheDate = () => {
                         <p className="text text3">When And Where</p>
                     </li>
                     <li className="text-content">
-                        <p className="text text4">April 5, 2025 at 2:00 PM</p>
+                        <p className="text text4">April 5, 2025 at 3:00 PM</p>
                     </li>
                     <li className="text-content">
                         <p className="text text5">Manila Cathedral</p>

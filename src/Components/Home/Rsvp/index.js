@@ -50,7 +50,7 @@ const Rsvp = () => {
                                 <hr />
                             </li>
                             <li className="content">
-                                <h6 className="time">Apr 05, 2025, 2:00 PM – 10:00 PM</h6>
+                                <h6 className="time">Apr 05, 2025, 3:00 PM</h6>
                             </li>
                             <li className="content">
                                 <h6 className="where">Where</h6>

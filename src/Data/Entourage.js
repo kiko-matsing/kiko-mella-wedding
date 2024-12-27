@@ -91,15 +91,15 @@ export const Ninangs = [
 export const Groomesmen = [
     {
         id: "1",
-        name: "Billy Baximen Bading",
+        name: "Billy Baximen",
     },
     {
         id: "2",
-        name: "Geral Nino Pornea Bading",
+        name: "Geral Nino Pornea",
     },
     {
         id: "3",
-        name: "Michael Pajo may tulo",
+        name: "Michael Pajo",
     },
     {
         id: "4",

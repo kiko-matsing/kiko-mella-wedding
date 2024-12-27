@@ -42,19 +42,16 @@
                 border-radius: 50px;
 
                 &.color1 {
-                    background-color: $primary;
+                    background-color: #708090;
                 }
                 &.color2 {
-                    background-color: #b5958c;
+                    background-color: #6699cc;
                 }
                 &.color3 {
-                    background-color: $secondary;
+                    background-color: #93a8bd;
                 }
                 &.color4 {
-                    background-color: $tertiary;
-                }
-                &.color5 {
-                    background-color: $fleet-gray;
+                    background-color: #ffe135;
                 }
             };
         }
