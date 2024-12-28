@@ -7,14 +7,21 @@
   position: relative;
   .background-main {     
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -3;
     background-image: url("./Assets/prenup/final/momentum-4.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 300vw;
+    background-size: cover;        
+    background-position: center center;
+    background-attachment: fixed;
+    left: 0;
+    z-index: -3;
+    width: 100vw;
     height: 100vh;
+    @media only screen and (max-width: 768px) {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300vw;
+      height: 100vh;
+    }
 
   }
 }
