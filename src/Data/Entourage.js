@@ -118,28 +118,37 @@ export const Groomesmen = [
 
 
 export const BridesMaid = [
+
     {
         id: "1",
-        name: "Jennifer Alarcon",
+        name: "Ayah Reyes",
     },
     {
         id: "2",
-        name: "Jann Kristine Cervas",
+        name: "Danica Mae Gabat",
     },
     {
         id: "3",
-        name: "Mary Jane Radaza",
+        name: "Cess Kusain",
     },
     {
         id: "4",
-        name: "Reynalyn Hidalgo",
+        name: "Jennifer Alarcon",
     },
     {
         id: "5",
-        name: "Dianne TBD",
+        name: "Jann Kristine Cervas",
     },
     {
         id: "6",
+        name: "Mary Jane Radaza",
+    },
+    {
+        id: "7",
+        name: "Reynalyn Hidalgo",
+    },
+    {
+        id: "8",
         name: "Claudine Daquis",
     },
 ]
@@ -169,30 +178,30 @@ export const BestMan = [
 export const Candle = [
     {
         id: "1",
-        name: "Maria Jonalyn Concepcion",
+        name: "Jerahmeel Kyle Dela Cerna",
     },
     {
         id: "2",
-        name: "Ayah Reyes",
-    },
-]
-
-
-
-export const Cord = [
-    {
-        id: "1",
-        name: "Kusain",
-    },
-    {
-        id: "2",
-        name: "Danica Mae Gabat",
+        name: "Justine Dela Cerna",
     },
 ]
 
 
 
 export const Veil = [
+    {
+        id: "1",
+        name: "Maria Jonalyn Concepcion",
+    },
+    {
+        id: "2",
+        name: "Sister Leysis Navaro",
+    },
+]
+
+
+
+export const Cord = [
     {
         id: "1",
         name: "Fhe Leonila Quiñola",
