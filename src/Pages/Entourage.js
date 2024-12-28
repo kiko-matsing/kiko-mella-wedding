@@ -87,7 +87,7 @@ const Entourage = () => {
  {/* mobile view */}
             <div className="mobile">
               <div className="title sub-title">Secondary Sponsors</div>
-              <div className="title">Maif of Honor</div>
+              <div className="title">Maid of Honor</div>
               <ul className="entourage">
                 {ContentPlacer(MaifOfHonor)}
               </ul>
