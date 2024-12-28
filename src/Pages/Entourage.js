@@ -158,6 +158,11 @@ const Entourage = () => {
               {ContentPlacer(CoinBearer)}
             </ul>
 
+            <div className="title">Bible Bearer</div>
+            <ul className="entourage">
+              {ContentPlacer(BibleBearer)}
+            </ul>
+
 
             <div className="title">Flower Girl</div>
             <ul className="entourage">

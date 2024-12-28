@@ -66,15 +66,15 @@ export const Ninangs = [
     },
     {
         id: "3",
-        name: "France Anne Gamboa",
+        name: "Frances Ann Gamboa",
     },
     {
         id: "4",
-        name: "Pinang Hernandez",
+        name: "Gemma Carranza",
     },
     {
         id: "5",
-        name: "Sister Leysis Navarro",
+        name: "Janete Guarina",
     },
     {
         id: "6",
@@ -223,7 +223,7 @@ export const CoinBearer = [
 export const BibleBearer = [
     {
         id: "1",
-        name: "Ledz",
+        name: "Fransjhodel Lazo",
     },
 ]
 
