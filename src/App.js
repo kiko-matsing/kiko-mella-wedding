@@ -18,10 +18,12 @@ import MainVenue from './Pages/Venue';
 import Rsvp from './Pages/Rsvp';
 
 
+import background from './Assets/prenup/final/momentum-339.jpg'
 
 function App() {
   return (
     <div className="App">
+      <img src={background} alt="background" className='background-main'/>
       <HashRouter>
         <Routes>
 
